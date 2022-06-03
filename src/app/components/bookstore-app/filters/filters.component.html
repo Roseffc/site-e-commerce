@@ -1,0 +1,18 @@
+<div class="card">
+
+    <div class="card-header">Filtros</div>
+
+    <div class="card-body">
+        <form>
+            <div class="form-group">
+                <label for="de">De</label>
+                <input type="number" id="de" class="form-control" [(ngModel)]="dados.de" name="de">
+            </div>
+            <div class="form-group">
+                <label for="ate">Até</label>
+                <input type="number" id="de" class="form-control" [(ngModel)]="dados.ate" name="ate">
+            </div>
+        </form>
+        <button class="btn btn-primary btn-=black btn-sm" (click)="filtrar()">Filtrar</button>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col">
+        <app-filters (eventFilter)="handlerFilter($event)" #appFilters></app-filters>
+    </div>
+    <div class="col-md-10">
+        <app-product-list [produtos]="produtos"></app-product-list>
+    </div>
+</div>
